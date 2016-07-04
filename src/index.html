@@ -9,32 +9,32 @@
             <h1>Основы HTML</h1>
             <ol type="1">
                 <li class="link">
-                    <a href="" target="_blank">Что такое HTML на самом деле?</a>
+                    <a href="#first" target="_blank">Что такое HTML на самом деле?</a>
                         <ul>
                             <li class="link">
-                                <a href="" target="_blank">Анатомия HTML элемента </a>
+                                <a href="#second" target="_blank">Анатомия HTML элемента </a>
                             </li>
                             <li class="link">
-                                <a href="" target="_blank">Вложенные элементы </a>
+                                <a href="#third" target="_blank">Вложенные элементы </a>
                             </li>
                             <li class="link">
-                                <a href="" target="_blank">Пустые элементы </a>
+                                <a href="#fourth" target="_blank">Пустые элементы </a>
                             </li>
                             <li class="link">
-                                <a href="" target="_blank">Анатомия HTML документа  </a>
+                                <a href="#fifth" target="_blank">Анатомия HTML документа  </a>
                             </li>
                         </ul>
                 </li>
                 <li class="link">
-                    <a href="" target="_blank">Краткое описание элемента <html></html> </a>
+                    <a href="#sixth" target="_blank">Краткое описание элемента <html></html> </a>
                       <ul>
                             <li class="link">
-                                <a href="" target="_blank">Атрибуты</a>
+                                <a href="#seveth" target="_blank">Атрибуты</a>
                             </li>
                     </ul>
                 </li>
                 <li class="link">
-                    <a href="" target="_blank">Заключение </a>
+                    <a href="#eighth" target="_blank">Заключение </a>
                 </li>
             </ol>
             
@@ -45,7 +45,9 @@
             
             
             <h2>
-            Что такое HTML на самом деле?
+                 <a id="first"></a>
+                Что такое HTML на самом деле?
+               
             </h2>
             
             <p>
@@ -61,7 +63,7 @@
              <code>&lt;p&gtMy cat is very grumpy&lt;/p&gt</code>
             
             
-            <h3>Анатомия HTML элемента</h3>
+            <h3><a id="second"></a>Анатомия HTML элемента</h3>
             <p>Давайте рассмотрим &lt;p&gt элемент параграфа более подробно.</p>
             <img src="images/grumpy-cat-small.png">
             <ol>
@@ -95,7 +97,9 @@
                 </li>
             </ol>
             
-            <h3>Вложенные элементы</h3>
+            <h3>
+                <a id="third"></a>
+                Вложенные элементы</h3>
             <p>
                 Вы также можете располагать элементы внутри других элементов — это называется <b>вложением</b>. Если мы хотим заявить, что наша кошка ОЧЕНЬ раздражена, мы можем обернуть слово "very" в &lt;strong&gt элемент, это означает, что слово должно быть сильно акцентированно:
             </p>
@@ -105,7 +109,9 @@
             <p>
                 Элементы должны открываться и закрываться правильно, поэтому они явно внутри или снаружи друг друга. Если они перекрываются как в примере выше, тогда ваш веб-браузер будет пытаться сделать наилучшее предположение на то, что вы пытались сказать, и вы также можете получить непредсказуемые результаты. Так что не стоит этого делать!
             </p>
-            <h3>Пустые элементы</h3>
+            <h3>
+                 <a id="fourth"></a>
+                Пустые элементы</h3>
             <nav>Некоторые элементы не имеют контента, и называются пустыми элементами. Возьмем &lt;img&gt элемент, который мы уже имеем в нашем HTML:</nav>
             <code>
                 &lt;img src="images/firefox-icon.png" alt="My test image"&gt 
@@ -113,7 +119,7 @@
             <p>
             Он содержит два атрибута, но не имеет закрывающего &lt;/img&gt тега, и никакого внутреннего контента. Это потому, что элемент изображения не оборачивает контент для влияния на него. Его целью является вставка изображения в HTML страницу, и оказывается в нужном месте.
             </p>
-            <h3>
+            <h3><a id="fifth"></a>
                 Анатомия HTML документа
             </h3>
             <p>
@@ -146,7 +152,9 @@
                 </li>
             </ul>
             
-            <h2>Краткое описание элемента &lt;html&gt&lt;/html&gt</h2>
+            <h2>
+                 <a id="sixth"></a>
+                Краткое описание элемента &lt;html&gt&lt;/html&gt</h2>
             <p>
                 Корневой элемент HTML-документа (&lt;<b>html</b>&gt). Все остальные элементы должны быть потомками этого элемента.
             </p>
@@ -196,7 +204,9 @@
                     </td>
                 </tr>
             </table>
-            <h2>Атрибуты</h2>
+            <h2>
+                 <a id="seveth"></a>
+                Атрибуты</h2>
             <dl>
                 <dt><b>manifest</b></dt>    
                 <dd>
@@ -211,7 +221,9 @@
                     Specifies the XML Namespace of the document. Default value is "http://www.w3.org/1999/xhtml". This is required in XHTML, and optional in HTML5.
                 </dd>
             </dl>
-            <h3>Заключение</h3>
+            <h2>
+                <a id="eighth"></a>
+                Заключение</h2>
             <p>Полные версии статей можно найти по ссылкам <a href="">Основы HTML</a> и <a href="">Элемент &lt;html&gt</a></p>
         </body>
     </html>
